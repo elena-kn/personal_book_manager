@@ -1,4 +1,7 @@
 name = input("enter your name: ")
 print("welcom", name)
-book = input("enter your name book : ")
-print("name book is", book)
+books = []
+count_books = int(input("how many books do you eant to add ? ")) 
+for i in range(count_books):
+    book  = input("enter a books: ")
+    books.append(book)
